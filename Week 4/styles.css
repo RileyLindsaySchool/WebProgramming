@@ -1,0 +1,31 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    width: 20em;
+    height: 3em;
+    background-color: #f0f0f8;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+div {
+    padding-top: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+body {
+    background-color: #f8f8ff;
+}
+
+.blue {
+    color: blue;
+}
