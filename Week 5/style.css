@@ -1,0 +1,36 @@
+#card-box {
+    width: 3.5in;
+    height: 2in;
+    display: flex;
+    background-color: red;
+}
+
+#card-top-half {
+    height: 80%;
+    background-color: darkblue;
+    /* padding-top: 50%; */
+}
+
+#card-bottom-half {
+    height: 20%;
+    background-color: yellow;
+}
+
+#profile-div {
+    position: relative;
+    width: 1in;
+    height: 1.5in;
+    top: 0.25in;
+    left: 0.25in;
+    background-color: green;
+}
+
+#card-text-div {
+    position: relative;
+    float: right;
+    width: 1in;
+    height: 1.5in;
+    top: -2in;
+    right: 0.25in;
+    background-color: green;
+}
