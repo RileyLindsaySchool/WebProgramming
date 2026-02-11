@@ -1,14 +1,14 @@
 #card-box {
     width: 3.5in;
     height: 2in;
-    display: flex;
+    /* display: flex; */
     background-color: red;
 }
 
 #card-top-half {
     height: 80%;
     background-color: darkblue;
-    /* padding-top: 50%; */
+    display: flex;
 }
 
 #card-bottom-half {
@@ -28,9 +28,13 @@
 #card-text-div {
     position: relative;
     float: right;
-    width: 1in;
-    height: 1.5in;
-    top: -2in;
-    right: 0.25in;
+    width: 1.5in;
+    height: 1.25in;
+    top: 0.25in;
+    left: 0.5in;
     background-color: green;
+}
+
+h1 {
+    font-size: 1.25em;
 }
