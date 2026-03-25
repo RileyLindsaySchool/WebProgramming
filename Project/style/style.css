@@ -1,0 +1,18 @@
+body {
+    color: #212427;
+    background-color: #F8F9FA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.color-primary {
+    background-color: #B3CCFF;
+}
+
+.color-secondary {
+    background-color: #6699FF;
+}
+
+.color-text {
+    background-color: #212427;
+    color: #ffffff;
+}
