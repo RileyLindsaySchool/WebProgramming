@@ -7,24 +7,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body>
+    <body class="min-h-screen flex flex-col">
         <nav id="nav-bar">
             <!-- Populated by navbar.js -->
         </nav>
 
-        <main>
-            <section>
-                <h1>Riley Lindsay</h1>
-                <p class="subtitle">Software Developer | Python & C++</p>
-                <p>I develop low-level and business-oriented software, with a focus on scalability and architecture.</p>
-            </section>
+        <main class="flex-grow">
+            <div class="max-w-6xl mx-auto px-6 py-16 space-y-20">
+                <section class="flex flex-col md:flex-row items-center gap-10">
+                    <img src="../image/profile_pic.jfif" class="w-40 h-40 md:w-52 md:h-52 object-cover rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105">
 
-            <section class="bg-secondary">
-                <ul>
-                    <li>C++, Python, JavaScript</li>
-                    <li>Interested in compiler design, systems programming, networking protocol design</li>
-                </ul>
-            </section>
+                    <div class="text-center md:text-left space-y-4">
+                        <h1 class="text-3xl md:text-4xl font-bold">Riley Lindsay</h1>
+                        <p class="text-neutral-700 leading-relaxed max-w-xl">Information Technology Student & Developer</p>
+                        <p>I am an Information Technology student, and I develop low-level and business-oriented software, with a focus on scalability and architecture.</p>
+                        <p>I began programming in SmileBASIC at the age of 14, and I have been passionate about software development ever since.</p>
+                    </div>
+                </section>
+
+                <section class="flex flex-col md:flex-row gap-10">
+                    <div class="space-y-3">
+                        <h3 class="font-medium text-neutral-800">Languages</h3>
+                        <ul class="list-disc list-inside pl-3 text-neutral-700 space-y-1">
+                            <li><a href="../skills/index.html#cpp" class="text-secondary font-medium hover:underline">C++</a></li>
+                            <li><a href="../skills/index.html#python" class="text-secondary font-medium hover:underline">Python</a></li>
+                            <li>JavaScript</li>
+                            <li>C#</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-3">
+                        <h3 class="font-medium text-neutral-800">Frameworks</h3>
+                        <ul class="list-disc list-inside pl-3 text-neutral-700 space-y-1">
+                            <li><a href="../skills/index.html#django" class="text-secondary font-medium hover:underline">Django</a></li>
+                            <li>React</li>
+                            <li><a href="../skills/index.html#dotnetframework" class="text-secondary font-medium hover:underline">.NET</a></li>
+                            <li>Unity</li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-3">
+                        <h3 class="font-medium text-neutral-800">Interests</h3>
+                        <ul class="list-disc list-inside pl-3 text-neutral-700 space-y-1">
+                            <li>Compiler Design</li>
+                            <li>Systems Programming</li>
+                            <li>Networking Protocol Design</li>
+                            <li>Machine Learning</li>
+                            <li>Database Design, Implementation, and Administration</li>
+                            <li>Game Design</li>
+                        </ul>
+                    </div>
+                    <!-- <ul>
+                        <li>C++, Python, JavaScript</li>
+                        <li>Interested in compiler design, systems programming, networking protocol design</li>
+                    </ul> -->
+                </section>
+            </div>
         </main>
 
         <footer id="footer">

@@ -8,3 +8,5 @@ email.innerHTML = `<a href="mailto:rlindsay@atu.edu">rlindsay@atu.edu</a>`;
 
 footer.appendChild(copyright);
 footer.appendChild(email);
+
+footer.className = "bg-text-color text-primary text-center p-4";

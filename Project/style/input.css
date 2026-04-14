@@ -5,3 +5,18 @@
 .test {
   @apply p-5 rounded-xl shadow-sm;
 }
+
+@theme {
+  --font-verdana: "Verdana", sans-serif;
+  --color-primary: #b3ccff;
+  --color-secondary: #6699ff;
+  --color-text-color: #212427;
+  --color-subtext-color: #495056;
+  --color-background-color: #f8f9fa;
+  --color-faded-background: #e9edf0;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #212427;
+}

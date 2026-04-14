@@ -15,7 +15,7 @@ const textLabels = [
 ];
 
 // Style the list
-ul.className = "flex gap-4 px-6 py-4 bg-primary";
+ul.className = "flex gap-8 px-6 py-4 bg-primary";
 
 // Loop through each of the URLs and text labels to populate the navigation bar
 for (let i = 0; i < urls.length; i++)

@@ -7,62 +7,66 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body>
+    <body class="min-h-screen flex flex-col">
         <nav id="nav-bar">
             <!-- Populated by navbar.js -->
         </nav>
 
-        <main>
-            <section>
-                <h1>Contact</h1>
-                <p class="intro">Please reach out for questions or opportunities.</p>
-            </section>
+        <main class="flex-grow">
+            <div class="max-w-6xl mx-auto px-6 py-16 space-y-16">
+                <section class="space-y-4 text-center md:text-left">
+                    <h1 class="text-3xl md:text-4xl font-bold">Contact</h1>
+                    <p class="text-lg max-w-xl">Please reach out for questions or opportunities.</p>
+                </section>
 
-            <section class="contact-methods">
-                <div class="method">
-                    <strong>Email (Preferred)</strong>
-                    <p>
-                        Personal email:
-                        <a href="mailto:rileylindsay64@gmail.com">rileylindsay64@gmail.com</a>
-                    </p>
-                    <p>
-                        School email:
-                        <a href="mailto:rlindsay@atu.edu">rlindsay@atu.edu</a>
-                    </p>
-                    <p>I typically respond in 24-48 hours.</p>
-                </div>
+                <section class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl shadow-sm border border-neutral-200 p-6 space-y-4">
+                        <h2 class="text-lg font-semibold">Email (Preferred)</h2>
+                        <p>
+                            Personal email:
+                            <a href="mailto:rileylindsay64@gmail.com" class="text-blue-600 hover:text-secondary underline underline-offset-2">rileylindsay64@gmail.com</a>
+                        </p>
+                        <p>
+                            School email:
+                            <a href="mailto:rlindsay@atu.edu" class="text-blue-600 hover:text-secondary underline underline-offset-2">rlindsay@atu.edu</a>
+                        </p>
+                        <p class="text-sm">I typically respond in 24-48 hours.</p>
+                    </div>
 
-                <div class="method">
-                    <strong>Phone</strong>
-                    <p>(479) 214-1553</p>
-                    <p>
-                        If I am unavailable, please leave a voicemail with your name and reason for calling.
-                        I will return your call as soon as possible.
-                    </p>
-                    <p>
-                        You may also send me a text message, which I will typically respond to within 72 hours.
-                    </p>
-                </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-neutral-200 p-6 space-y-4">
+                        <h2 class="text-lg font-semibold" class="text-blue-600 hover:text-secondary underline underline-offset-2">Phone</h2>
+                        <p>(479) 214-1553</p>
+                        <p>
+                            If I am unavailable, please leave a voicemail with your name and reason for calling.
+                        </p>
+                        <p>
+                            I will return your call as soon as possible.
+                        </p>
+                        <p class="text-sm">
+                            You may also send me a text message, which I will typically respond to within 72 hours.
+                        </p>
+                    </div>
 
-                <div class="method">
-                    <strong>GitHub</strong>
-                    <p>
-                        <a href="https://github.com/RileyLindsaySchool">github.com/rileylindsayschool</a>
-                    </p>
-                    <p>
-                        For information about my projects, please view my GitHub page, or
-                        <a href="../projects/index.html">click here</a>
-                        for an overview of my most significant projects.
-                    </p>
-                </div>
-            </section>
+                    <div class="bg-white rounded-2xl shadow-sm border border-neutral-200 p-6 space-y-4">
+                        <h2 class="text-lg font-semibold">GitHub</h2>
+                        <p>
+                            <a href="https://github.com/RileyLindsaySchool" class="text-secondary hover:underline break-all">github.com/rileylindsayschool</a>
+                        </p>
+                        <p>
+                            For information about my projects, please view my GitHub page, or
+                            <a href="../projects/index.html" class="text-secondary hover:underline">click here</a>
+                            for an overview of my most significant projects.
+                        </p>
+                    </div>
+                </section>
 
-            <section class="note">
-                <p>
-                    When reaching out, please provide a brief description of your inquiry and any other relevant details.
-                    This helps me respond most efficiently.
-                </p>
-            </section>
+                <section class="pt-8 border-t border-neutral-200">
+                    <p class="text-sm text-neutral-600 max-w-2xl">
+                        When reaching out, please provide a brief description of your inquiry and any other relevant details.
+                        This helps me respond most efficiently.
+                    </p>
+                </section>
+            </div>
         </main>
 
         <footer id="footer">
