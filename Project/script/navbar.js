@@ -5,13 +5,13 @@ const ul = document.createElement("ul");
 // Define URLs of navigation bar
 const urls = [
     "../home/index.html", "../education/index.html", "../skills/index.html",
-    "../projects/index.html", "../hobbies/index.html", "../contact/index.html",
+    "../projects/index.html", /*"../hobbies/index.html",*/ "../contact/index.html",
 ];
 
 // Define text of navigation bar
 const textLabels = [
     "Home", "Education", "Skills",
-    "Projects", "Hobbies", "Contact",
+    "Projects", /*"Hobbies",*/ "Contact",
 ];
 
 // Style the list
